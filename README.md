@@ -13,3 +13,7 @@ para pegar o ip do container docker do postgres
 ### hostname -i
 ou
 ### docker inspect (id do container) | grep IPAdress
+
+
+gorm
+### go get -u gorm.io/gorm
