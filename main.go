@@ -14,6 +14,7 @@ func main() {
 		{Id: 2, Name: "Second name", History: "Chapter Two"},
 	}
 	database.ConnectToDatabase()
+	fmt.Println("This is Bubba's!")
 	fmt.Println("FirstSteps")
 	routes.HandleRequest()
 }
